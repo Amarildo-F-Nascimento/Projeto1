@@ -1,0 +1,148 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header{
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.logo-image{
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 120px;
+    color: #515151;
+   
+
+}
+
+h2 {
+    font-weight: 400px;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+    
+    
+}
+
+
+p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+   
+
+}
+
+.button-main {
+    background: #adff00;
+    border-radius: 40px;
+    width: 229px;
+    height: 54px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0,-0,-0));
+    font-weight: 600px;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+@media screen and (max-width: 800px){
+
+
+.logo-image{
+   
+    position: absolute;
+    width: 354px;
+    height: 317px;
+    margin: 140px 22px 334px 14px;
+  
+}
+    
+
+header{
+    display: none;
+    
+}
+h1 {
+    font-size: 50px;
+    line-height: 61px;
+    width: 263px;
+    height: 52px;
+    position: absolute;
+    text-align: center;
+    top:470px;
+}
+
+h2 {
+    font-size: 23px;
+    line-height: 50px;
+    width: auto;
+    text-align: center;
+    margin-top: 522px;
+    
+}
+
+p {
+   display: none;
+}
+
+.button-main {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 34px;
+    margin-top: 45px ;
+    
+    
+}
+   
+@media screen and (max-width: 300px){
+    section{
+        width: 90%;
+    }
+}
+
+
+
+}
